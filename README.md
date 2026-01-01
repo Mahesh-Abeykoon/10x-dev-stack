@@ -75,6 +75,21 @@ AI tools that live in your CLI.
 - **[Mintlify](https://mintlify.com/)** - Automated documentation writer that analyzes your code.
 - **[DeepSource](https://deepsource.io/)** - Static analysis and automated code review to fix issues before they merge.
 
+## 🔎 AI Search Engines for Devs
+
+Stop Googling. Use these for direct technical answers.
+
+- **[Phind](https://www.phind.com/)** - AI search engine optimized for developers.
+- **[Perplexity](https://www.perplexity.ai/)** - Great for referencing documentation and getting cited answers.
+- **[Grep.app](https://grep.app/)** - (Not AI, but essential) Search across half a million git repos instantly.
+
+## 🏠 Local LLM Runners
+
+Run models like Llama 3 and DeepSeek locally on your machine.
+
+- **[Ollama](https://ollama.com/)** - The easiest way to get up and running with local LLMs (Mac/Linux/Windows).
+- **[LM Studio](https://lmstudio.ai/)** - Great GUI for discovering and running local models.
+
 ## 🧠 LLMs for Code
 
 Open weights models specifically trained for coding tasks.
