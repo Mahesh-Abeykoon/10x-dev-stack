@@ -19,6 +19,17 @@
 
 This repository aims to be the **ultimate resource** for developers looking to supercharge their workflow with AI. We cover everything from autocomplete extensions to fully autonomous software engineering agents.
 
+## 🏆 Recommended Stacks
+
+Don't know where to start? Try these combinations based on your needs.
+
+| Profile | The Stack | Why? |
+| :--- | :--- | :--- |
+| **The "Bleeding Edge"** | **Windsurf** + **Claude 3.5 Sonnet** + **V0** | The absolute highest level of automation available today. |
+| **The "Privacy First"** | **VS Code** + **Continue** + **Ollama (DeepSeek)** | 100% local, no data leaves your machine. Enterprise safe. |
+| **The "Speed Demon"** | **Cursor** + **Supermaven** | Cursor for the features, Supermaven for the instant low-latency autocomplete. |
+| **The "Browser Builder"** | **Bolt.new** + **Lovable** | Build full-stack apps without opening an IDE. Perfect for rapid prototyping. |
+
 ## 🚀 IDE Extensions
 
 Tools that live inside your editor (VS Code, JetBrains, etc.).
@@ -27,13 +38,25 @@ Tools that live inside your editor (VS Code, JetBrains, etc.).
 - **[Cursor](https://cursor.sh/)** - An AI-first code editor built on top of VS Code. Features built-in chat, codebase indexing, and smart rewrites.
 - **[Supermaven](https://supermaven.com/)** - Long-context code completion tool that feels incredibly fast.
 - **[Codeium](https://codeium.com/)** - Free AI code completion and chat. Good alternative to Copilot.
+- **[Windsurf](https://codeium.com/windsurf)** - The first "Agentic IDE" by Codeium. Deep context awareness and flows.
+- **[Cline](https://github.com/cline/cline)** - (Formerly Claude Dev) Autonomous coding agent right inside VS Code.
+- **[Roo Code](https://github.com/RooVetGit/Roo-Code)** - A community-driven fork of Cline with bleeding-edge features using regular updates.
+- **[PearAI](https://pearai.com/)** - Open-source AI code editor alternative to Cursor.
 - **[CodiumAI](https://www.codium.ai/)** - Focuses on generating meaningful tests and code analysis to prevent bugs.
 - **[Continue](https://continue.dev/)** - An open-source autopilot for software development—bring your own LLM (local or cloud).
+
+## ✨ Web AI Builders (Hot Trend)
+
+Tools that generate full-stack web apps from a single prompt.
+
+- **[Bolt.new](https://bolt.new/)** - StackBlitz's AI that generates, runs, and deploys full-stack apps in the browser.
+- **[Lovable](https://lovable.dev/)** - "GPT Engineer" on steroids. precise, beautiful UI generation that integrates with Supabase.
 
 ## 🤖 Autonomous Agents
 
 Agents that can plan, execute, and debug tasks with minimal human intervention.
 
+- **[Plandex](https://plandex.ai/)** - An open source AI coding engine for complex, multi-file tasks.
 - **[Devin](https://www.cognition-labs.com/)** - The first widely publicized fully autonomous AI software engineer.
 - **[OpenDevin](https://github.com/OpenDevin/OpenDevin)** - An open-source platform for autonomous AI software engineers.
 - **[AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)** - One of the first experimental open-source attempts to make GPT-4 fully autonomous.
@@ -54,6 +77,7 @@ Web-based or standalone chat tools optimized for coding.
 AI tools that live in your CLI.
 
 - **[Warp](https://www.warp.dev/)** - A modern terminal with AI command search and assistance built-in.
+- **[Wave](https://www.waverm.com/)** - Open source, cross-platform terminal built for seamless AI workflows.
 - **[Aider](https://aider.chat/)** - AI pair programming in your terminal. Edits code in your local git repo.
 - **[Open Interpreter](https://openinterpreter.com/)** - A natural language interface for your computer's terminal.
 
@@ -61,6 +85,21 @@ AI tools that live in your CLI.
 
 - **[Mintlify](https://mintlify.com/)** - Automated documentation writer that analyzes your code.
 - **[DeepSource](https://deepsource.io/)** - Static analysis and automated code review to fix issues before they merge.
+
+## 🔎 AI Search Engines for Devs
+
+Stop Googling. Use these for direct technical answers.
+
+- **[Phind](https://www.phind.com/)** - AI search engine optimized for developers.
+- **[Perplexity](https://www.perplexity.ai/)** - Great for referencing documentation and getting cited answers.
+- **[Grep.app](https://grep.app/)** - (Not AI, but essential) Search across half a million git repos instantly.
+
+## 🏠 Local LLM Runners
+
+Run models like Llama 3 and DeepSeek locally on your machine.
+
+- **[Ollama](https://ollama.com/)** - The easiest way to get up and running with local LLMs (Mac/Linux/Windows).
+- **[LM Studio](https://lmstudio.ai/)** - Great GUI for discovering and running local models.
 
 ## 🧠 LLMs for Code
 
