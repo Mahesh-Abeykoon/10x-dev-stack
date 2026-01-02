@@ -42,6 +42,13 @@ Don't just read about tools—use our optimized configurations.
 - **[📝 .cursorrules Template](templates/cursorrules-template.md)** - Drop this into your project root to make Cursor 10x smarter.
 - **[⚔️ Battle of the IDEs](comparisons/ide-battle.md)** - A detailed breakdown of Cursor vs Windsurf vs Copilot vs Cline.
 
+## 🧪 The "Advanced" Frontier
+
+For those who want to build the future, not just use it.
+
+- **[🔌 Model Context Protocol (MCP)](advanced/mcp-frontier.md)** - Connect AI to your Database, Git, and Local Filesystem. The new standard.
+- **[🏴‍☠️ The Hacker's Guide](advanced/hackers-guide.md)** - "Grey hat" techniques for context stuffing, prompting hacks, and optimization.
+
 ## 🚀 IDE Extensions
 
 Tools that live inside your editor (VS Code, JetBrains, etc.).
