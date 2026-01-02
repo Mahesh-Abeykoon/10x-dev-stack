@@ -40,6 +40,7 @@ Don't just read about tools—use our optimized configurations.
 
 - **[📂 System Prompts Library](prompts/system-prompts.md)** - Copy/paste these into Claude or ChatGPT for better results.
 - **[📝 .cursorrules Template](templates/cursorrules-template.md)** - Drop this into your project root to make Cursor 10x smarter.
+- **[🏗️ Copy-Paste Scaffolds](scaffolds/)** - "Perfect" config files for Vite/React/TS that are optimized for AI generation.
 - **[⚔️ Battle of the IDEs](comparisons/ide-battle.md)** - A detailed breakdown of Cursor vs Windsurf vs Copilot vs Cline.
 
 ## 🧪 The "Advanced" Frontier
