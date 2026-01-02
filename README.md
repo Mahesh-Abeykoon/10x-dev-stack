@@ -30,6 +30,17 @@ Don't know where to start? Try these combinations based on your needs.
 | **The "Speed Demon"** | **Cursor** + **Supermaven** | Cursor for the features, Supermaven for the instant low-latency autocomplete. |
 | **The "Browser Builder"** | **Bolt.new** + **Lovable** | Build full-stack apps without opening an IDE. Perfect for rapid prototyping. |
 
+### 🧭 Visual Stack Selector
+
+[...diagram hidden...]
+
+## 🧰 Resources & Templates
+
+Don't just read about tools—use our optimized configurations.
+
+- **[� System Prompts Library](prompts/system-prompts.md)** - Copy/paste these into Claude or ChatGPT for better results.
+- **[📝 .cursorrules Template](templates/cursorrules-template.md)** - Drop this into your project root to make Cursor 10x smarter.
+
 ## 🚀 IDE Extensions
 
 Tools that live inside your editor (VS Code, JetBrains, etc.).
