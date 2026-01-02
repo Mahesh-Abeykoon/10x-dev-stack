@@ -15,3 +15,5 @@ Stop wasting time searching for "best practice" config files. Copy-paste these i
 
 *   `main.py`: Async-first FastAPI setup with Pydantic typing (essential for structured outputs).
 *   `requirements.txt`: The modern standard stack (FastAPI, Pydantic v2, OpenAI, LangChain).
+*   `Dockerfile`: Optimized for production (rootless user, slim image).
+*   `.env.example`: Template for your API keys.
