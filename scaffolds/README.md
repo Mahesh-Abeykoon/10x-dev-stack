@@ -11,9 +11,11 @@ Stop wasting time searching for "best practice" config files. Copy-paste these i
 
 ## 🐍 agentic-fastapi (Python)
 **Path:** `scaffolds/fastapi-agent/`
-**Use for:** Building the backend for your AI Tools.
+**Use for:** Production-ready AI Agent backend.
 
-*   `main.py`: Async-first FastAPI setup with Pydantic typing (essential for structured outputs).
-*   `requirements.txt`: The modern standard stack (FastAPI, Pydantic v2, OpenAI, LangChain).
-*   `Dockerfile`: Optimized for production (rootless user, slim image).
-*   `.env.example`: Template for your API keys.
+*   **⚡ Async Streaming**: Real-time token streaming (`/v1/agent/stream`) for snappy UI.
+*   **🧠 Memory Service**: Built-in chat history/session management (in-memory, extensible to Redis).
+*   **🛡️ Enterprise Secure**: API Key authentication and request logging middleware included.
+*   **🤖 LLM Agnostic**: logical separation of `LLMService` (currently OpenAI) from your business logic.
+*   **🧰 Tooling Ready**: Pre-built `BaseTool` structure for function calling.
+*   **⚙️ Type-Safe Config**: Pydantic-based configuration management.
