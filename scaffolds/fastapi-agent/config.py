@@ -7,10 +7,12 @@ class Settings(BaseSettings):
     VERSION: str = "1.0.0"
     ENVIRONMENT: str = "development"
     PORT: int = 8000
+    API_SECRET: str = "dev-secret-key" # Change this in production!
     
     # AI Providers
     OPENAI_API_KEY: str = ""
     ANTHROPIC_API_KEY: str = ""
+    MODEL_NAME: str = "gpt-4-turbo-preview"
     
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 

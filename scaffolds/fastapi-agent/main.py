@@ -7,7 +7,9 @@ from typing import List, Optional
 
 from config import get_settings
 from middleware.logger import RequestLoggerMiddleware
+from middleware.auth import SecurityMiddleware
 from services.memory import MemoryService
+from services.llm import LLMService
 from tools.base import BaseTool
 
 # 🚀 10x-Performance FastAPI Template
@@ -17,11 +19,13 @@ settings = get_settings()
 
 app = FastAPI(title=settings.APP_NAME, version=settings.VERSION)
 
-# 1. Add Middleware (Observability)
-app.add_middleware(RequestLoggerMiddleware)
+# 1. Add Middleware
+app.add_middleware(SecurityMiddleware) # 🔒 Secure first
+app.add_middleware(RequestLoggerMiddleware) # 📝 Log after
 
 # Initialize Services
 memory_service = MemoryService()
+llm_service = LLMService()
 
 class AgentRequest(BaseModel):
     query: str
@@ -32,13 +36,6 @@ class AgentResponse(BaseModel):
     answer: str
     confidence: float
     used_tools: List[str] = []
-
-async def fake_stream_generator(query: str):
-    """Simulates an LLM streaming tokens"""
-    tokens = ["Thinking", "...", " about", " '", query, "'", ".", " This", " is", " a", " streamed", " response", "."]
-    for token in tokens:
-        yield token
-        await asyncio.sleep(0.1)  # Simulate network latency
 
 @app.get("/health")
 async def health_check():
@@ -53,7 +50,7 @@ async def health_check():
 async def run_agent(request: AgentRequest):
     """
     Main entry point for your agent.
-    Integrates Memory and Tooling.
+    Integrates Memory, Tooling, and LLMs.
     """
     try:
         # A. Retrieve History
@@ -62,10 +59,12 @@ async def run_agent(request: AgentRequest):
         # B. Add User Query to Memory
         await memory_service.add_message(request.session_id, "user", request.query)
 
-        # TODO: C. Call your Logic / LLM with history
-        # (This is where you would hydrate your LangChain agent with tools)
+        # C. Call LLM Service
+        # We construct a simple prompt with history context
+        history_text = "\n".join([f"{msg.role}: {msg.content}" for msg in history[-5:]])
+        full_prompt = f"History:\n{history_text}\n\nUser: {request.query}"
         
-        response_text = f"Processed query: {request.query}. I have {len(history)} previous messages in context."
+        response_text = await llm_service.get_response(full_prompt)
         
         # D. Add Assistant Response to Memory
         await memory_service.add_message(request.session_id, "assistant", response_text)
@@ -73,7 +72,7 @@ async def run_agent(request: AgentRequest):
         return AgentResponse(
             answer=response_text, 
             confidence=0.99,
-            used_tools=["memory_retriever"]
+            used_tools=["llm_service"]
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -83,10 +82,8 @@ async def stream_agent(request: AgentRequest):
     """
     Streaming endpoint.
     """
-    # Note: For streaming, you'd usually stream the response into memory 
-    # as chunks arrive, then save the full message at the end.
     return StreamingResponse(
-        fake_stream_generator(request.query), 
+        llm_service.stream_response(request.query), 
         media_type="text/plain"
     )
 
