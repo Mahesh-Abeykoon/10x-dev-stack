@@ -13,10 +13,9 @@ A production-ready, high-performance scaffold for building AI Agents with Python
 
 ## 📦 Setup
 
-1. **Clone & Install**
+1. **Install**
    ```bash
-   cd fastapi-agent
-   pip install -r requirements.txt
+   make install
    ```
 
 2. **Environment**
@@ -27,22 +26,20 @@ A production-ready, high-performance scaffold for building AI Agents with Python
 
 3. **Run Locally**
    ```bash
-   python main.py
-   # OR
-   uvicorn main:app --reload
+   make dev
    ```
 
 4. **Run with Docker**
    ```bash
-   docker build -t my-agent .
-   docker run -p 8000:8000 --env-file .env my-agent
+   make build
+   make run
    ```
 
 ## 🧪 Testing
 
 Run the test suite:
 ```bash
-pytest
+make test
 ```
 
 ## 📂 Structure
