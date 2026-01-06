@@ -151,4 +151,4 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 
 ## 📜 License
 
-[CC0 1.0 Universal](LICENSE)
+[MIT License](LICENSE)
