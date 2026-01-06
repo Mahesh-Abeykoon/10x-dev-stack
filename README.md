@@ -17,7 +17,7 @@
 
 ## 🌟 Introduction
 
-This repository aims to be the **ultimate resource** for developers looking to supercharge their workflow with AI. We cover everything from autocomplete extensions to fully autonomous software engineering agents.
+Stop drowning in AI noise. This is a filtered, high-signal toolkit for developers who want to ship code 10x faster. We track the tools that actually work—from bleeding-edge agents to privacy-focused local stacks.
 
 ## 🏆 Recommended Stacks
 
@@ -32,7 +32,16 @@ Don't know where to start? Try these combinations based on your needs.
 
 ### 🧭 Visual Stack Selector
 
-[...diagram hidden...]
+```mermaid
+graph TD
+  subgraph Stacks["🏆 Choose Your Weapon"]
+    direction LR
+    A[Bleeding Edge] -->|Windsurf + Claude + V0| A1(Max Automation)
+    B[Privacy First] -->|VS Code + Continue + Ollama| B1(Local & Secure)
+    C[Speed Demon] -->|Cursor + Supermaven| C1(Instant Latency)
+    D[Browser Builder] -->|Bolt.new + Lovable| D1(Rapid Prototyping)
+  end
+```
 
 ## 🧰 Resources & Templates
 
@@ -70,7 +79,7 @@ Tools that live inside your editor (VS Code, JetBrains, etc.).
 Tools that generate full-stack web apps from a single prompt.
 
 - **[Bolt.new](https://bolt.new/)** - StackBlitz's AI that generates, runs, and deploys full-stack apps in the browser.
-- **[Lovable](https://lovable.dev/)** - "GPT Engineer" on steroids. precise, beautiful UI generation that integrates with Supabase.
+- **[Lovable](https://lovable.dev/)** - "GPT Engineer" on steroids. Precise, beautiful UI generation that integrates with Supabase.
 
 ## 🤖 Autonomous Agents
 
@@ -89,7 +98,7 @@ Web-based or standalone chat tools optimized for coding.
 
 - **[ChatGPT (OpenAI)](https://chat.openai.com/)** - The most popular generic chatbot, highly capable in coding with GPT-4o.
 - **[Claude 3.5 Sonnet (Anthropic)](https://claude.ai/)** - Widely considered the current SOTA for coding tasks due to its reasoning and large context window.
-- **[v0.dev](https://v0.dev/)** - Generative UI system by Vercel. describe your interface and get React/Tailwind code.
+- **[v0.dev](https://v0.dev/)** - Generative UI system by Vercel. Describe your interface and get React/Tailwind code.
 - **[Replit AI](https://replit.com/ai)** - Integrated AI coding assistant within the Replit cloud IDE.
 
 ## 💻 Terminal Tools
@@ -101,6 +110,7 @@ AI tools that live in your CLI.
 - **[Aider](https://aider.chat/)** - AI pair programming in your terminal. Edits code in your local git repo.
 - **[Open Interpreter](https://openinterpreter.com/)** - A natural language interface for your computer's terminal.
 
+<a id="code-review"></a>
 ## 📝 Code Review & Documentation
 
 - **[Mintlify](https://mintlify.com/)** - Automated documentation writer that analyzes your code.

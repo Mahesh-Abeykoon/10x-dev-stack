@@ -1,21 +1,16 @@
-# 🏗️ Scaffold Library
+# 🏗️ 10x Scaffolds
 
-Stop wasting time searching for "best practice" config files. Copy-paste these into your project to get 10x performance immediately.
+These are "perfect starter" templates. Unlike standard `create-next-app` or `vite` templates, these are pre-configured with the **AI 10x Stack** in mind.
 
-## ⚡ optimized-vite-react
-**Path:** `scaffolds/vite-react-optimized/`
-**Use for:** Any new React project.
+## Available Scaffolds
 
-*   `vite.config.ts`: Pre-configured with chunk splitting (manualChunks) for smaller bundles, and 'esnext' target for performance.
-*   `tsconfig.json`: Strict mode enabled (makes AI less likely to hallucinate types).
+### 1. [Vite + React + TypeScript Optimized](./vite-react-optimized)
+**Best for:** Web Applications, Dashboards, SaaS Frontend.
+- **Why:** Pre-configured with Tailwind, specialized linting rules that don't fight AI, and a clean folder structure.
 
-## 🐍 agentic-fastapi (Python)
-**Path:** `scaffolds/fastapi-agent/`
-**Use for:** Production-ready AI Agent backend.
+### 2. [FastAPI Agent Service](./fastapi-agent)
+**Best for:** AI Agents, Backend Tools, Python APIs.
+- **Why:** Structured for modular agents. Includes easy Docker setup and environment management.
 
-*   **⚡ Async Streaming**: Real-time token streaming (`/v1/agent/stream`) for snappy UI.
-*   **🧠 Memory Service**: Built-in chat history/session management (in-memory, extensible to Redis).
-*   **🛡️ Enterprise Secure**: API Key authentication and request logging middleware included.
-*   **🤖 LLM Agnostic**: logical separation of `LLMService` (currently OpenAI) from your business logic.
-*   **🧰 Tooling Ready**: Pre-built `BaseTool` structure for function calling.
-*   **⚙️ Type-Safe Config**: Pydantic-based configuration management.
+## Usage
+Simply copy the folder to your location or browse the files to copy specific configurations.
