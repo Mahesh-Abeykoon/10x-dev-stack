@@ -1,4 +1,4 @@
-# Awesome AI Coding Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 10x Dev Stack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of AI-powered coding tools, agents, and extensions that are changing the way we build software.
 
