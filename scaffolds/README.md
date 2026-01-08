@@ -12,5 +12,11 @@ These are "perfect starter" templates. Unlike standard `create-next-app` or `vit
 **Best for:** AI Agents, Backend Tools, Python APIs.
 - **Why:** Structured for modular agents. Includes easy Docker setup and environment management.
 
-## Usage
-Simply copy the folder to your location or browse the files to copy specific configurations.
+### 3. [Minimal Local RAG (Python)](./minimal-rag-python)
+**Best for:** Adding "Chat with PDF" to any project.
+- **Why:** 50 lines of code. Uses Ollama + LanceDB. No heavyweight frameworks.
+
+### 4. [MCP Server Starter](./mcp-server-starter)
+**Best for:** Connecting Claude to your custom tools.
+- **Why:** The "Hello World" of the Model Context Protocol. TypeScript based.
+
