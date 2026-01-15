@@ -39,4 +39,4 @@ If you are contributing to the `advanced/` or `prompts/` sections:
 
 ## 📜 Code of Conduct
 
-Be kind, help each other, and let's build the future of software engineering together.
+Be kind, help each other, and let's build the future of software engineering together. Please read our full [Code of Conduct](CODE_OF_CONDUCT.md) for details.

@@ -20,3 +20,7 @@ These are "perfect starter" templates. Unlike standard `create-next-app` or `vit
 **Best for:** Connecting Claude to your custom tools.
 - **Why:** The "Hello World" of the Model Context Protocol. TypeScript based.
 
+### 5. [Next.js App](./nextjs-app)
+**Best for:** Full-stack web apps, SSR, API routes.
+- **Why:** Modern Next.js 14 with App Router, TypeScript, and AI-optimized config.
+

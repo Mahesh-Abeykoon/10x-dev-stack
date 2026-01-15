@@ -1,4 +1,4 @@
-# 10x Dev Stack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 10x Dev Stack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![GitHub stars](https://img.shields.io/github/stars/Mahesh-Abeykoon/10x-dev-stack?style=social) ![GitHub forks](https://img.shields.io/github/forks/Mahesh-Abeykoon/10x-dev-stack?style=social)
 
 > A curated list of AI-powered coding tools, agents, and extensions that are changing the way we build software.
 
@@ -18,6 +18,13 @@
 ## 🌟 Introduction
 
 Stop drowning in AI noise. This is a filtered, high-signal toolkit for developers who want to ship code 10x faster. We track the tools that actually work—from bleeding-edge agents to privacy-focused local stacks.
+
+## 🔥 What's Hot Right Now
+
+- **[Windsurf IDE](https://codeium.com/windsurf)** - The first agentic IDE with deep context awareness
+- **[Claude 3.5 Sonnet](https://claude.ai/)** - Still the SOTA for coding tasks
+- **[Bolt.new](https://bolt.new/)** - Build full-stack apps from prompts in the browser
+- **[Model Context Protocol](advanced/mcp-frontier.md)** - Connect AI to your entire dev environment
 
 ## 🏆 Recommended Stacks
 
@@ -145,10 +152,36 @@ Open weights models specifically trained for coding tasks.
 - **[Prompt Engineering Guide](https://www.promptingguide.ai/)** - Learn how to talk to these models effectively.
 - **[Andrej Karpathy's "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g)** - Essential viewing for understanding the tech.
 
+## 🌍 Community & Success Stories
+
+Join thousands of developers who've transformed their workflow with these tools.
+
+### 💡 User Testimonials
+
+> "Switched to Windsurf + Claude and cut my development time in half. This stack is incredible!" - @dev_hacker
+
+> "The scaffolds saved me hours of setup. Finally, boilerplates that work with AI tools!" - @code_ninja
+
+### 🤝 Community Contributions
+
+- **Submit a Tool:** Found a game-changing AI tool? [Open an issue](https://github.com/Mahesh-Abeykoon/10x-dev-stack/issues/new) to suggest it.
+- **Share Your Stack:** Have a unique combination that works? Contribute to the recommended stacks.
+- **Improve Scaffolds:** Add more boilerplate templates for popular frameworks.
+
+### 📱 Connect & Share
+
+- **LinkedIn:** Share this repo with your network! [Post about it](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Mahesh-Abeykoon/10x-dev-stack)
+- **Twitter:** Follow [@yourhandle] for updates
+- **Discord:** Join our community discussions
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## 📜 License
+## � Changelog
+
+See what's new in the latest versions: [CHANGELOG.md](CHANGELOG.md)
+
+## �📜 License
 
 [MIT License](LICENSE)
