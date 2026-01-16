@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Social media sharing links for LinkedIn and Twitter
 
 ### Changed
-- Enhanced README with badges and viral elements
+- Enhanced README with badges and community sections
 - Updated scaffold descriptions and added new entries
 
 ### Fixed

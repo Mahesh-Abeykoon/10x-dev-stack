@@ -19,7 +19,7 @@
 
 Stop drowning in AI noise. This is a filtered, high-signal toolkit for developers who want to ship code 10x faster. We track the tools that actually work—from bleeding-edge agents to privacy-focused local stacks.
 
-## 🔥 What's Hot Right Now
+## 🔥 Current Favorites
 
 - **[Windsurf IDE](https://codeium.com/windsurf)** - The first agentic IDE with deep context awareness
 - **[Claude 3.5 Sonnet](https://claude.ai/)** - Still the SOTA for coding tasks
@@ -167,15 +167,13 @@ Join thousands of developers who've transformed their workflow with these tools.
 
 ### 🤝 Community Contributions
 
-- **Submit a Tool:** Found a game-changing AI tool? [Open an issue](https://github.com/Mahesh-Abeykoon/10x-dev-stack/issues/new) to suggest it.
+- **Submit a Tool:** Found a useful AI tool? [Open an issue](https://github.com/Mahesh-Abeykoon/10x-dev-stack/issues/new) to suggest it.
 - **Share Your Stack:** Have a unique combination that works? Contribute to the recommended stacks.
 - **Improve Scaffolds:** Add more boilerplate templates for popular frameworks.
 
-### 📱 Connect & Share
+### 💬 Discussion
 
-- **LinkedIn:** Share this repo with your network! [Post about it](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Mahesh-Abeykoon/10x-dev-stack)
-- **Twitter:** Follow [@yourhandle] for updates
-- **Discord:** Join our community discussions
+Join the conversation about AI-powered development tools and share your experiences.
 
 ## 🤝 Contributing
 

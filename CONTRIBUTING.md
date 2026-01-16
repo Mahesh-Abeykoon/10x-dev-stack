@@ -8,7 +8,7 @@ We value high-signal tools over massive lists of shovelware. If you've found som
 
 We welcome contributions of all kinds!
 
-- **Add a new tool**: Found a game-changing AI tool? Add it!
+- **Add a new tool**: Found a useful AI tool? Add it!
 - **Update a stack**: Have a better combination of tools? Propose a new "Recommended Stack".
 - **Improve Prompts**: Refine our system prompts with your findings.
 
