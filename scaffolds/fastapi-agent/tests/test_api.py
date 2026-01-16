@@ -1,6 +1,5 @@
 from fastapi.testclient import TestClient
 from main import app
-from services.llm import LLMService
 
 client = TestClient(app)
 

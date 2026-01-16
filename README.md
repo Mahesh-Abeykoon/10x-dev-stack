@@ -193,10 +193,10 @@ Join the conversation about AI-powered development tools and share your experien
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## � Changelog
+## 📋 Changelog
 
 See what's new in the latest versions: [CHANGELOG.md](CHANGELOG.md)
 
-## �📜 License
+## 📜 License
 
 [MIT License](LICENSE)
