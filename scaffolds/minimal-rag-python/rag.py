@@ -24,7 +24,7 @@ def ingest_file(file_path):
     try:
         if not os.path.exists(file_path):
             console.print(f"[red]❌ File not found: {file_path}[/red]")
-            return
+            raise FileNotFoundError(f"File not found: {file_path}")
         
         console.print(f"[bold blue]📄 Ingesting {file_path}...[/bold blue]")
         
