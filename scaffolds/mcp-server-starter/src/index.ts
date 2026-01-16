@@ -21,7 +21,7 @@ const server = new Server(
     }
 );
 
-// 2. define Tools
+// 2. Define Tools
 server.setRequestHandler(ListToolsRequestSchema, async () => {
     return {
         tools: [
