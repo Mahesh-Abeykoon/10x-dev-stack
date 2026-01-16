@@ -25,6 +25,7 @@ Stop drowning in AI noise. This is a filtered, high-signal toolkit for developer
 - **[Claude 3.5 Sonnet](https://claude.ai/)** - Still the SOTA for coding tasks
 - **[Bolt.new](https://bolt.new/)** - Build full-stack apps from prompts in the browser
 - **[Model Context Protocol](advanced/mcp-frontier.md)** - Connect AI to your entire dev environment
+- **[Aider](https://aider.chat/)** - AI pair programming in your terminal
 
 ## 🏆 Recommended Stacks
 
@@ -57,6 +58,8 @@ Don't just read about tools—use our optimized configurations.
 - **[📂 System Prompts Library](prompts/system-prompts.md)** - Copy/paste these into Claude or ChatGPT for better results.
 - **[📝 .cursorrules Template](templates/cursorrules-template.md)** - Drop this into your project root to make Cursor 10x smarter.
 - **[🏗️ Copy-Paste Scaffolds](scaffolds/)** - "Perfect" config files for Vite/React/TS that are optimized for AI generation.
+- **[🚀 Quick Start Demo](demo/)** - 5-minute guide to building with the 10x Dev Stack.
+- **[🛠️ Utility Scripts](scripts/)** - Helper scripts for copying scaffolds and automation.
 - **[⚔️ Battle of the IDEs](comparisons/ide-battle.md)** - A detailed breakdown of Cursor vs Windsurf vs Copilot vs Cline.
 
 ## 🧪 The "Advanced" Frontier

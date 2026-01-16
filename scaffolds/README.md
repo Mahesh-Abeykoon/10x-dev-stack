@@ -24,3 +24,7 @@ These are "perfect starter" templates. Unlike standard `create-next-app` or `vit
 **Best for:** Full-stack web apps, SSR, API routes.
 - **Why:** Modern Next.js 14 with App Router, TypeScript, and AI-optimized config.
 
+### 6. [Express.js API](./express-api)
+**Best for:** REST APIs, microservices, AI integrations.
+- **Why:** Lightweight Express setup with security middleware and AI-ready endpoints.
+
