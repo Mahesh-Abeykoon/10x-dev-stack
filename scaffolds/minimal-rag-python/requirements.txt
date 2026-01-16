@@ -1,0 +1,4 @@
+ollama
+lancedb
+pypdf
+rich
