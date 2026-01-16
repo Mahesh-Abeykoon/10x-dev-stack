@@ -3,7 +3,7 @@
 > A curated list of AI-powered coding tools, agents, and extensions that are changing the way we build software.
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000" alt="AI Coding Tools" width="800" />
+  <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/ai_developer_tools.jpg" alt="AI Coding Tools" width="800" />
   <br />
   <br />
   <p>
