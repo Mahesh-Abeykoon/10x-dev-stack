@@ -57,9 +57,23 @@ Don't just read about tools—use our optimized configurations.
 
 - **[📂 System Prompts Library](prompts/system-prompts.md)** - Copy/paste these into Claude or ChatGPT for better results.
 - **[📝 .cursorrules Template](templates/cursorrules-template.md)** - Drop this into your project root to make Cursor 10x smarter.
-- **[🏗️ Copy-Paste Scaffolds](scaffolds/)** - "Perfect" config files for Vite/React/TS that are optimized for AI generation.
+
+### 🏗️ Ready-to-Use Project Scaffolds
+
+Start any project in seconds with production-ready configurations:
+
+- **[Vite + React + TypeScript](scaffolds/vite-react-optimized/)** - Modern frontend with Tailwind and optimized tooling
+- **[FastAPI Agent Service](scaffolds/fastapi-agent/)** - Python backend for AI agents with Docker support
+- **[Next.js Full-Stack App](scaffolds/nextjs-app/)** - Next.js 14 with App Router and TypeScript
+- **[Express.js REST API](scaffolds/express-api/)** - Node.js API with security middleware
+- **[Minimal Local RAG](scaffolds/minimal-rag-python/)** - AI data retrieval in 50 lines of Python
+- **[MCP Server Starter](scaffolds/mcp-server-starter/)** - Connect Claude to custom tools
+
+👉 **[View All Scaffolds](scaffolds/)** | **[Copy-Paste Scripts](scripts/)**
+
+### 📚 Other Resources
+
 - **[🚀 Quick Start Demo](demo/)** - 5-minute guide to building with the 10x Dev Stack.
-- **[🛠️ Utility Scripts](scripts/)** - Helper scripts for copying scaffolds and automation.
 - **[⚔️ Battle of the IDEs](comparisons/ide-battle.md)** - A detailed breakdown of Cursor vs Windsurf vs Copilot vs Cline.
 
 ## 🧪 The "Advanced" Frontier
